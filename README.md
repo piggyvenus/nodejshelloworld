@@ -1,2 +1,2 @@
-# nodejshelloworld
+# Nodejs simple Dockerfile example
 nodejs test
