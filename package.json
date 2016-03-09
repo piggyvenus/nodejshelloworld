@@ -1,0 +1,10 @@
+{
+  "name": "docker-hello",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello world app on CentOS using docker",
+  "author": "Shanna Chan <shchan@redhat.com> ",
+  "dependencies": {
+    "express": "*"
+  }
+}
