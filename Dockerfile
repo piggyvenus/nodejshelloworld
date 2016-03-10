@@ -1,4 +1,4 @@
-FROM rhel7:latest
+FROM rhel6:latest
 
 WORKDIR /app
 ADD package.json /app/
