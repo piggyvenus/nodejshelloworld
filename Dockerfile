@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhel6:latest
+FROM rhel6.6:latest
 
 WORKDIR /app
 ADD package.json /app/
