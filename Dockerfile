@@ -1,4 +1,4 @@
-FROM docker.io/nodesource/centos7:5.7.1
+FROM docker.io/nodesource/centos7:latest
 
 WORKDIR /app
 ADD package.json /app/
