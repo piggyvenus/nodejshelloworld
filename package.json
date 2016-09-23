@@ -1,42 +1,15 @@
 {
-  "name": "docker-hello",
+  "name": "nodejs-helloworld",
   "private": true,
   "version": "0.0.1",
   "description": "Node.js Hello world app on CentOS using docker",
   "author": "Shanna Chan <shchan@redhat.com> ",
-  "dependencies": {
-    "express": "*"
-  },
-  "scripts": {
-    "start": "node index.js",
-  }
-}
-}
-
-
-{
-  "name": "nodejstest",
-  "version": "0.0.1",
-  "description": "Node.js Hello world app  for OpenShift 3",
-  "main": "index.js",
-  "dependencies": {
-    "express": "*"
-  },
-  "engine": {
-    "node": "*",
-    "npm": "*"
-  },
+  "main": "index.js"
   "scripts": {
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/piggyvenus/nodejshelloworld.git"
-  },
-  "author": "Shan Chan <shchan@redhat.com>",
-  "license": "CC-BY-1.0",
-  "bugs": {
-    "url": "http://github.com/piggyvenus/nodejshelloworld/issues"
-  },
-  "homepage": "http://github.com/piggyvenus/nodejshelloworld.git"
+  "dependencies": {
+    "express": "*"
+  }
 }
+
