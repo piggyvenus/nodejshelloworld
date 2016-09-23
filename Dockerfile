@@ -1,9 +1,11 @@
 FROM node:4
 
-WORKDIR /app
-ADD package.json /app/
-ADD index.js /app/
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+ADD package.json /usr/src/app/
+ADD index.js /usr/src/app/
 RUN npm install
-ADD . /app
 
-CMD ["node", "/app/index.js"]
+COPY . /usr/src/app
+EXPOSE 8080
+CMD ["npm", "start"]
