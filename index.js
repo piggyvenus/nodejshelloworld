@@ -9,6 +9,8 @@ app.get('/', function (req, res) {
   res.send('Hello world openshift v3!\n');
 });
 
-app.listen(PORT);
-console.log('Running on http://localhost:' + PORT);
-console.log(process.versions);
+app.listen(PORT, function () {
+  console.log('Example app listening on port 3000!');
+  console.log(process.versions);
+});
+
