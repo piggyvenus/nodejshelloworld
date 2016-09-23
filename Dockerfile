@@ -1,4 +1,4 @@
-FROM docker.io/nodesource/centos7:latest
+FROM registry.access.redhat.com/openshift3/nodejs-010-rhel7
 
 WORKDIR /app
 ADD package.json /app/
