@@ -1,15 +1,14 @@
 {
   "name": "nodejs-helloworld",
-  "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Node.js Hello world app on CentOS using docker",
   "author": "Shanna Chan <shchan@redhat.com> ",
-  "main": "index.js"
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "*"
+    "express": "^4.13.3"
   }
 }
 
